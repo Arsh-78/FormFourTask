@@ -1,0 +1,14 @@
+Q. "Imagine you need to transmit a large set of sensor
+data from the MCU to the Android app over USB, but the transmission keeps failing after a certain amount of
+data is sent. How would you go about troubleshooting and solving this problem?
+
+Ans-> 
+My Steps to troubleshooting this problem will be to try to find the limit at which the data being sent fails and research on internet by specigying the current threshold by this I can identify if there
+is a limitation in APIs and functions being used if Yes I will try to find out the alternative to by pass this limit.
+
+In case if I donot find a architectural limit this implies that code fault lies somewhere along the communication methods rather than on the type and size of data being transferred,so I would try resarching
+solutions in this regard
+
+If the above approach fails then my next step would be to post the problems in detail on online help forums like stackoverflow,reddit and try using Chatgpt for debugging the existing code.
+
+Lastly I would try changing the gear used, i.e the USB cabel and device being used for debugging purposes .
